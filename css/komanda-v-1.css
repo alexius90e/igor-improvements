@@ -192,10 +192,12 @@
 }
 .komanda_v_1__item_img {
   display: block;
+  max-width: 100%;
   width: 100%;
-  height: auto;
+  aspect-ratio: 9 / 10;
   margin-bottom: 42px;
   border-radius: 3px;
+  object-fit: cover;
 }
 @media (max-width: 1600px) {
   .komanda_v_1__item_img {
@@ -365,7 +367,7 @@
 }
 .komanda_v_1__button::after,
 .komanda_v_1__button::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 15px;
   right: 24px;
