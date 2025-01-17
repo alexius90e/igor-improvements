@@ -42,10 +42,7 @@
   object-fit: cover;
 }
 @media (max-width: 767px) {
-  .perv_ekr_v_5__bg {
-    height: auto;
-    bottom: 213px;
-  }
+
 }
 .perv_ekr_v_5__container {
   display: -webkit-flex;
